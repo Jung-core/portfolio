@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+#wrap{
+  display:flex;
+  flex-direction: column;
+  min-height: 100vh;
+  overflow: hidden
+}
+#main{
+  flex:1 0 100%
+}
+// setting
+@import "setting/fonts";
+@import "setting/vars";
+@import "setting/reset";
+@import "setting/mixin";
+
+// section
+@import "section/header";
+@import "section/intro";
+@import "section/skill";
+@import "section/site";
+@import "section/port";
+@import "section/contact";
+@import "section/footer";
